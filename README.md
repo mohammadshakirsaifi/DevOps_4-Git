@@ -127,6 +127,10 @@ All screenshots are stored in the `Screenshots/` folder.
 
 ![Project Output](Screenshots/ProjectOutput.jpg)
 
+<img width="465" height="109" alt="image" src="https://github.com/user-attachments/assets/103fe2a7-ab97-4965-8f4b-d84fb9f76ff6" />
+
+<img width="1731" height="717" alt="image" src="https://github.com/user-attachments/assets/f7c6aadd-5cb9-45cb-b3bc-e0850f444b87" />
+
 ---
 
 ## 📝 Assignment Highlights
