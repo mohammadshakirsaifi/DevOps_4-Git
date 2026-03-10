@@ -1,3 +1,14 @@
+from flask import Flask, request, send_from_directory
+from pymongo import MongoClient
+
+app = Flask(__name__)
+
+# Serve HTML form
+@app.route('/')
+def form():
+    return send_from_directory('.', 'todo_form.html')
+
+# Backend API
 @app.route('/submittodoitem', methods=['POST'])
 def submit_todo():
     itemName = request.form.get("itemName")
@@ -13,3 +24,6 @@ def submit_todo():
     })
 
     return "Item Stored Successfully"
+
+if __name__ == "__main__":
+    app.run(debug=True)
